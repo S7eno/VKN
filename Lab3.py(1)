@@ -1,8 +1,0 @@
-import sys
-sys.stdout.write('Задайте цифру')
-bar = sys.stdin.readline()
-sys.stdout.write('Задайте цифру')
-bar1 = sys.stdin.readline()
-sys.stdout.write('Задайте цифру')
-bar2 = sys.stdin.readline()
-sys.stdout.write("Результат : " + str(bar[0] + bar1[0]) + ' ' + str(bar[0] + bar2[0] + " " + str(bar1[0] + bar2[0])))
